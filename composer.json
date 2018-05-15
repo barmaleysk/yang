@@ -1,0 +1,24 @@
+{
+    "name": "griniv/ecofood_tmn_bot",
+    "type": "project",
+    "description": "PHP Telegram Bot @ecofood_tmn_bot",
+    "keywords": ["telegram", "bot"],
+    "license": "MIT",
+    "homepage": "https://github.com/griniv/ecofood_tmn_bot",
+    "authors": [
+        {
+            "name": "Anton Griniv",
+            "email": "a.griniv@gmail.com",
+			"homepage": "http://t.me/griniv",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "longman/telegram-bot": "*"
+    },
+	"autoload": {
+        "psr-4": {
+            "Tbot\\": "src/"
+        }
+    }
+}
